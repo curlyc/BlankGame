@@ -1,4 +1,4 @@
-#include "Arduboy2.h" //include the arduboy2 library
+#include <Arduboy2.h> //include the arduboy2 library
 Arduboy2 ab; //this isnt realy needed but it saves on the typing shortening arduboy to ab
 #define TITLE                0 //title screen
 #define GAME_PLAY                1 // player select
