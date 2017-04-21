@@ -10,7 +10,7 @@ void setup() { //initial set up of game
 void loop() { //everything in here is your game
   if (!(ab.nextFrame())) //checks to see if it is time for the next frame
     return; //if its not check again
-    ab.clear(); //clear screen
+    
 Serial.write(ab.getBuffer(), 128 * 64 / 8); //ssend the screen over the microusb (i use it for craits screen mirror)
 ab.display();
 }
