@@ -11,7 +11,7 @@ void setup() { //initial set up of game
 void loop() { //everything in here is your game
   if (!(ab.nextFrame())) //checks to see if it is time for the next frame
     return; //if its not check again
-  
+  ab.pollButtons();
   if (gamestate == 0) {
     // title screen
   }
